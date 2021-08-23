@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 #-----------------------------------
 #  The following code is invoked when the path portion of the URL matches 
-#         /collapse?value=99.94
+#         /collapse?value=999999
 #
 @app.route('/collapse')
 def dispatch():
